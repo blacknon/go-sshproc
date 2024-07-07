@@ -70,8 +70,8 @@ Some of the references and code have been changed in order to have almost the sa
         fmt.Println("Read CPUInfo")
         cpuinfo, err := proc.ReadCPUInfo("/proc/cpuinfo")
         if err != nil {
-        fmt.Println(err)
-        os.Exit(1)
+            fmt.Println(err)
+            os.Exit(1)
         }
         fmt.Println(cpuinfo.NumCPU())
         fmt.Println(cpuinfo.NumCore())
