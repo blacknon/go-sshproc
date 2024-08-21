@@ -5,7 +5,7 @@ go 1.22.4
 toolchain go1.22.5
 
 require (
-	github.com/blacknon/go-sshlib v0.1.13
+	github.com/blacknon/go-sshlib v0.1.16
 	github.com/c9s/goprocinfo v0.0.0-20210130143923-c95fcf8c64a8
 	github.com/pkg/sftp v1.13.6
 )
@@ -28,4 +28,3 @@ require (
 	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/term v0.19.0 // indirect
 )
-
